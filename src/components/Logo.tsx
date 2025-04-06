@@ -1,7 +1,11 @@
 
 import React from 'react';
 
-const Logo: React.FC<{ className?: string }> = ({ className = "" }) => {
+interface LogoProps {
+  className?: string;
+}
+
+const Logo: React.FC<LogoProps> = ({ className = "" }) => {
   return (
     <div className={`flex items-center ${className}`}>
       <svg
@@ -11,23 +15,40 @@ const Logo: React.FC<{ className?: string }> = ({ className = "" }) => {
         xmlns="http://www.w3.org/2000/svg"
         className="mr-3"
       >
+        {/* Dark background circle */}
         <circle cx="40" cy="40" r="38" fill="#1A1F2C" />
-        <circle cx="40" cy="40" r="35" fill="none" stroke="#4DB6AC" strokeWidth="1" />
+        
+        {/* Grid lines to represent data/coordinate system */}
+        <path d="M15,40 L65,40" stroke="#4DB6AC" strokeWidth="0.5" strokeDasharray="2" />
+        <path d="M40,15 L40,65" stroke="#4DB6AC" strokeWidth="0.5" strokeDasharray="2" />
+        
+        {/* Statistical curve (normal distribution) */}
         <path
-          d="M20,40 Q40,20 60,40 T20,40"
+          d="M15,60 Q20,60 25,58 T35,48 T45,42 T55,48 T65,60"
           fill="none"
           stroke="#0ea5e9"
           strokeWidth="2"
         />
-        <path
-          d="M20,50 Q40,30 60,50"
-          fill="none"
-          stroke="#4DB6AC"
-          strokeWidth="2"
-        />
-        <circle cx="30" cy="35" r="4" fill="#0ea5e9" />
-        <circle cx="50" cy="35" r="4" fill="#4DB6AC" />
-        <circle cx="40" cy="48" r="4" fill="#0ea5e9" />
+        
+        {/* Machine learning neural network nodes and connections */}
+        <circle cx="25" cy="30" r="3" fill="#4DB6AC" />
+        <circle cx="40" cy="25" r="3" fill="#0ea5e9" />
+        <circle cx="55" cy="30" r="3" fill="#4DB6AC" />
+        <circle cx="25" cy="50" r="3" fill="#0ea5e9" />
+        <circle cx="55" cy="50" r="3" fill="#0ea5e9" />
+        <circle cx="40" cy="55" r="3" fill="#4DB6AC" />
+        
+        {/* Neural network connections */}
+        <path d="M25,30 L40,25 L55,30" stroke="#4DB6AC" strokeWidth="1" />
+        <path d="M25,30 L25,50 L40,55 L55,50 L55,30" stroke="#0ea5e9" strokeWidth="1" />
+        <path d="M40,25 L25,50" stroke="#4DB6AC" strokeWidth="1" />
+        <path d="M40,25 L55,50" stroke="#4DB6AC" strokeWidth="1" />
+        <path d="M40,25 L40,55" stroke="#0ea5e9" strokeWidth="1" />
+        
+        {/* Optimization target/bullseye */}
+        <circle cx="40" cy="40" r="8" fill="none" stroke="#0ea5e9" strokeWidth="1.5" />
+        <circle cx="40" cy="40" r="4" fill="none" stroke="#4DB6AC" strokeWidth="1.5" />
+        <circle cx="40" cy="40" r="1.5" fill="#0ea5e9" />
       </svg>
       <div>
         <div className="text-2xl font-bold tracking-tight text-icosom-dark">ICOSOM</div>

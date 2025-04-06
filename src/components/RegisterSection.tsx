@@ -41,10 +41,10 @@ const RegisterSection = () => {
   return (
     <section id="register" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-4">
-            <span className="text-gray-800">REGISTRATION</span>
-            <span className="text-pink-600 ml-4">PROCESS</span>
+        <div className="text-center font-bold mb-16">
+          <h2 className="text-4xl mb-4">
+            <span className="text-black">Registration</span>
+            <span className="text-black ml-4">Process</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6"></div>
         </div>

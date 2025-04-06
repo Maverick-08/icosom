@@ -15,7 +15,7 @@ const HeroSection = () => {
             International Conference on<br className="md:hidden" /> Statistics, Optimization &<br className="md:hidden" /> Machine Learning
           </p>
           <p className="text-xl text-gray-300 mb-10">
-            June 15-18, 2025 • Geneva, Switzerland
+            June 15-18, 2025 • Bhopal, India
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="#register" className="bg-gradient-to-r from-icosom-600 to-icosom-500 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-icosom-500/20 hover:-translate-y-1">

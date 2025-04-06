@@ -64,7 +64,7 @@ const FooterSection = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-icosom-500 mr-2 mt-1" />
-                <span className="text-gray-600">Geneva International Conference Center, Switzerland</span>
+                <span className="text-gray-600">Maulana Azad National Institute of Technology, Bhopal, India</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-icosom-500 mr-2" />

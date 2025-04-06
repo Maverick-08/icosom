@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import { Menu, X } from 'lucide-react';
 
@@ -23,12 +24,12 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#about' },
-    { name: 'Tracks', href: '#tracks' },
-    { name: 'Speakers', href: '#speakers' },
-    { name: 'Important Dates', href: '#dates' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Tracks', href: '/tracks' },
+    { name: 'Speakers', href: '/speakers' },
+    { name: 'Important Dates', href: '/dates' },
+    { name: 'Contact', href: '/contact' },
   ];
   
   return (
@@ -41,25 +42,27 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
-          <Logo className="z-50" />
+          <Link to="/" className="z-50">
+            <Logo className="z-50" />
+          </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
                 className="text-icosom-dark font-medium hover:text-icosom-500 transition-colors"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
-            <a 
-              href="#register" 
+            <Link 
+              to="/register" 
               className="bg-gradient-to-r from-icosom-600 to-icosom-500 text-white font-medium py-2 px-6 rounded-lg transition-all duration-300 hover:shadow-md hover:shadow-icosom-500/20 hover:-translate-y-0.5"
             >
               Register Now
-            </a>
+            </Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -77,22 +80,22 @@ const Navbar = () => {
           <div className="md:hidden fixed inset-0 bg-white/95 backdrop-blur-md pt-20 px-4 z-40 animate-fade-in">
             <div className="flex flex-col space-y-6 items-center">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
-                  href={link.href}
+                  to={link.href}
                   className="text-icosom-dark text-lg font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
-              <a 
-                href="#register" 
+              <Link 
+                to="/register" 
                 className="bg-gradient-to-r from-icosom-600 to-icosom-500 text-white font-medium py-2 px-6 rounded-lg mt-4 w-full text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Register Now
-              </a>
+              </Link>
             </div>
           </div>
         )}

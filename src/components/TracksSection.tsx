@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const TracksSection = () => {
   const tracks = [
@@ -41,10 +42,10 @@ const TracksSection = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a href="#" className="text-icosom-600 hover:text-icosom-700 font-medium inline-flex items-center group">
+          <Link to="/tracks" className="text-icosom-600 hover:text-icosom-700 font-medium inline-flex items-center group">
             View Full Program
             <ArrowRight className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

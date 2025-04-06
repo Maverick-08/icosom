@@ -68,7 +68,7 @@ const FooterSection = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-icosom-500 mr-2" />
-                <a href="mailto:info@icosom2025.org" className="text-gray-600 hover:text-icosom-500 transition-colors">info@icosom2025.org</a>
+                <a href="mailto:info@icosom2025.org" className="text-gray-600 hover:text-icosom-500 transition-colors">info@icosom2026.org</a>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-icosom-500 mr-2" />

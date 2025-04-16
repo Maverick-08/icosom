@@ -6,23 +6,23 @@ import { Card, CardContent } from '@/components/ui/card';
 const DatesSection = () => {
   const importantDates = [
     {
-      date: "December 15, 2024",
+      date: "December 15, 2025",
       event: "Abstract Submission Deadline"
     },
     {
-      date: "February 28, 2025",
+      date: "Jannuary 10, 2026",
       event: "Full Paper Submission"
     },
     {
-      date: "April 10, 2025",
+      date: "Jannuary 20, 2026",
       event: "Notification of Acceptance"
     },
     {
-      date: "May 5, 2025",
+      date: "Febrauary 12, 2026",
       event: "Early Registration Deadline"
     },
     {
-      date: "June 15-18, 2025",
+      date: "February 27-28, 2026",
       event: "Conference Dates"
     }
   ];
@@ -34,7 +34,7 @@ const DatesSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Important Dates</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-icosom-300 to-icosom-teal mx-auto mb-6 rounded-full"></div>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Mark your calendar with these key deadlines for ICOSOM 2025.
+            Mark your calendar with these key deadlines for ICOSOM 2026.
           </p>
         </div>
         

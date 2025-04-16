@@ -5,18 +5,20 @@ import { Link } from 'react-router-dom';
 
 const TracksSection = () => {
   const tracks = [
-    "Statistical Learning Theory",
-    "Bayesian Inference",
-    "Time Series Analysis",
-    "Computational Optimization",
-    "Deep Learning",
-    "Natural Language Processing",
-    "Computer Vision",
-    "Reinforcement Learning",
-    "Forecasting Methods",
-    "Data Mining",
-    "Evolutionary Algorithms",
-    "Explainable AI"
+    "Probability Theory and Applications",
+    "Statistical Inference ",
+    "Statistical Quality Control",
+    "Reliability and Survival analysis",
+    "Applied Statistics",
+    "Theoretical Foundations and Algorithms",
+    "Computational Methods and Software",
+    "Optimization in Engineering and Sciences",
+    "Data-driven and Emerging Optimization Paradigms",
+    "Foundation of Artificial Intelligence and Data Science",
+    "Applications of ML in Industry and Society",
+    "Deep Learning and Computer Vision",
+    "LLM and Generative AI",
+    "Explainable and Responsible AI"
   ];
 
   return (
@@ -30,7 +32,7 @@ const TracksSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 cursor-default">
           {tracks.map((track, index) => (
             <div 
               key={index}
@@ -41,12 +43,12 @@ const TracksSection = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Link to="/tracks" className="text-icosom-600 hover:text-icosom-700 font-medium inline-flex items-center group">
             View Full Program
             <ArrowRight className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

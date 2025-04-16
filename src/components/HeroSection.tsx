@@ -48,7 +48,7 @@ const HeroSection = () => {
               AND MACHINE LEARNING{" "}
             </p>
 
-            <p className="text-center lg:text-left text-2xl lg:text-3xl mt-4 font-bold text-icosom-300">
+            <p className="text-center lg:text-left text-2xl lg:text-3xl mt-4 lg:mt-6 font-bold text-icosom-300">
               27TH - 28TH FEBRUARY, 2026
             </p>
 

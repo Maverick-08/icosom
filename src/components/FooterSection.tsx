@@ -73,9 +73,9 @@ const FooterSection = () => {
               <li className="flex">
                 <Phone className="h-5 w-5 text-icosom-500 mr-2" />
                 <div className='flex gap-2'>
-                  <span className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">7974227273,</span>
-                  <span className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">7908450565,</span>
-                  <span className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">9804353307</span>
+                  <span title='Dr. JK Jain' className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">7974227273,</span>
+                  <span title='Dr. Subhankar' className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">7908450565,</span>
+                  <span title='Dr. Suman' className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">9804353307</span>
                 </div>
               </li>
             </ul>

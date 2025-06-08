@@ -70,9 +70,13 @@ const FooterSection = () => {
                 <Mail className="h-5 w-5 text-icosom-500 mr-2" />
                 <a href="mailto:info@icosom2025.org" className="text-gray-600 hover:text-icosom-500 transition-colors">icosom.conf@gmail.com</a>
               </li>
-              <li className="flex items-center">
+              <li className="flex">
                 <Phone className="h-5 w-5 text-icosom-500 mr-2" />
-                <a href="tel:+41221234567" className="text-gray-600 hover:text-icosom-500 transition-colors">+41 22 123 4567</a>
+                <div className='flex gap-2'>
+                  <span className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">7974227273,</span>
+                  <span className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">7908450565,</span>
+                  <span className="text-gray-600 hover:text-icosom-500 transition-colors cursor-pointer">9804353307</span>
+                </div>
               </li>
             </ul>
           </div>

@@ -90,7 +90,7 @@ const RegisterSection = () => {
         </div>
         <div className="mt-12 text-center">
           <a
-            href="https://icosom2025.com/register"
+            href="https://forms.gle/6179vBc7cdA8yg3t8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-icosom-600 text-white font-semibold rounded-lg hover:bg-icosom-700 transition-all duration-300"

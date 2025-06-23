@@ -1,32 +1,20 @@
-
-import React from 'react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import guestSpeaker1 from "@/assets/speaker1.jpeg";
+import guestSpeaker2 from "@/assets/speaker2.jpeg";
 
 const SpeakersSection = () => {
   const speakers = [
     {
-      name: "Dr. Emily Chen",
-      role: "AI Research Lead, Stanford University",
-      image: "",
-      initials: "EC"
-    },
-    {
-      name: "Prof. Michael Johnson",
-      role: "Director, Institute for Statistical Science",
-      image: "",
-      initials: "MJ"
-    },
-    {
-      name: "Dr. Sarah Rodriguez",
-      role: "Principal Researcher, Tech Innovations",
-      image: "",
-      initials: "SR"
-    },
-    {
-      name: "Prof. David Kim",
-      role: "Chair of Optimization, MIT",
-      image: "",
+      name: "Prof. Debasis Kundu",
+      role: "IIT Kanpur",
+      image: guestSpeaker1,
       initials: "DK"
+    },
+    {
+      name: "Prof. Somesh Kumar",
+      role: "IIT Kharagpur",
+      image: guestSpeaker2,
+      initials: "SK"
     }
   ];
 
@@ -40,8 +28,8 @@ const SpeakersSection = () => {
             Learn from leading experts in statistics, optimization, and machine learning.
           </p>
         </div>
-        <p className='text-gray-600 text-center'>To be Announced Soon...</p>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+       
+        <div className="lg:max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           {speakers.map((speaker, index) => (
             <div key={index} className="text-center">
               <Avatar className="h-32 w-32 mx-auto mb-4 border-2 border-icosom-100">
@@ -58,7 +46,7 @@ const SpeakersSection = () => {
         
         <div className="text-center mt-12">
           <a href="#" className="gradient-button">View All Speakers</a>
-        </div> */}
+        </div>
       </div>
     </section>
   );

@@ -62,12 +62,12 @@ const OrganizingCommittee = () => {
       image:generalCoChairPerson1
     },
     {
-      fullName: "Prof. (Dr.) Debjani Chakraborty",
+      fullName: "Prof. (Dr.) Chakraborty",
       college: " IIT Kharagpur, India",
       image:generalCoChairPerson2
     },
     {
-      fullName: "Prof. (Dr.)  Madhvi Shakya",
+      fullName: "Prof. (Dr.)  M. Shakya",
       college: "MANIT Bhopal, India",
       image:generalCoChairPerson3
     },
@@ -80,7 +80,7 @@ const OrganizingCommittee = () => {
       image:programChairPerson1,
     },
     {
-      fullName: "Dr. Chandan Kumar Verma",
+      fullName: "Dr. CK Verma",
       college: "MANIT Bhopal, India",
       image:programChairPerson2,
     },

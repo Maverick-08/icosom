@@ -60,7 +60,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-center lg:text-left mt-6 lg:mt-4 text-xl leading-relaxed lg:leading-none">
-              Maulana Azad National Institute of Technology (MANIT), Bhopal
+              Maulana Azad National Institute of Technology (MANIT) Bhopal
             </p>
 
           </div>

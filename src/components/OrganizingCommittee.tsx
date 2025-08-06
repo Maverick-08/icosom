@@ -26,19 +26,19 @@ const OrganizingCommittee = () => {
       title: "Chief Patron",
       fullName: "Prof. (Dr.) Karunesh Kumar Shukla",
       designation: "Director, MANIT Bhopal",
-      image:chiefPatron
+      image: chiefPatron,
     },
     {
       title: "Patron",
       fullName: "Prof. (Dr.) S. P. S. Rajput",
       designation: "Dean ID & IR",
-      image:patron
+      image: patron,
     },
     {
       title: "Chair Person",
       fullName: "Prof. (Dr.) Namita Srivastava",
       designation: "MANIT Bhopal, India",
-      image:charPerson
+      image: charPerson,
     },
   ];
 
@@ -46,12 +46,12 @@ const OrganizingCommittee = () => {
     {
       fullName: "Prof. (Dr.)  Sanjay Sharma",
       college: "MANIT Bhopal, India",
-      image:generalChairMember1
+      image: generalChairMember1,
     },
     {
       fullName: "Prof. (Dr.) Debasis Kundu",
       college: "IIT Kanpur, India",
-      image:generalChairMember2
+      image: generalChairMember2,
     },
   ];
 
@@ -59,17 +59,17 @@ const OrganizingCommittee = () => {
     {
       fullName: "Prof. (Dr.)  Sujoy Das",
       college: "MANIT Bhopal, India",
-      image:generalCoChairPerson1
+      image: generalCoChairPerson1,
     },
     {
       fullName: "Prof. (Dr.) Chakraborty",
       college: " IIT Kharagpur, India",
-      image:generalCoChairPerson2
+      image: generalCoChairPerson2,
     },
     {
       fullName: "Prof. (Dr.)  M. Shakya",
       college: "MANIT Bhopal, India",
-      image:generalCoChairPerson3
+      image: generalCoChairPerson3,
     },
   ];
 
@@ -77,17 +77,17 @@ const OrganizingCommittee = () => {
     {
       fullName: "Dr. Usha Chouhan",
       college: "MANIT Bhopal, India",
-      image:programChairPerson1,
+      image: programChairPerson1,
     },
     {
       fullName: "Dr. CK Verma",
       college: "MANIT Bhopal, India",
-      image:programChairPerson2,
+      image: programChairPerson2,
     },
     {
       fullName: "Dr. Amit Bhagat",
       college: "MANIT Bhopal, India",
-      image:programChairPerson3,
+      image: programChairPerson3,
     },
   ];
 
@@ -95,17 +95,17 @@ const OrganizingCommittee = () => {
     {
       fullName: "Dr. G. S. Thakur",
       college: "MANIT Bhopal, India",
-      image:programCoChairPerson1,
+      image: programCoChairPerson1,
     },
     {
       fullName: "Dr. Manoj Jha",
       college: "MANIT Bhopal, India",
-      image:programCoChairPerson2,
+      image: programCoChairPerson2,
     },
     {
       fullName: "Dr. Dheerendra Mishra",
       college: "MANIT Bhopal, India",
-      image:programCoChairPerson3,
+      image: programCoChairPerson3,
     },
   ];
 
@@ -113,22 +113,22 @@ const OrganizingCommittee = () => {
     {
       fullName: "Dr. Pushpendra Kumar",
       college: "MANIT Bhopal, India",
-      image:publicityChairPerson1,
+      image: publicityChairPerson1,
     },
     {
       fullName: "Dr. Jitendra Kumar",
       college: "MANIT Bhopal, India",
-      image:publicityChairPerson2,
+      image: publicityChairPerson2,
     },
     {
       fullName: "Dr. S. Devidas",
       college: "MANIT Bhopal, India",
-      image:publicityChairPerson3,
+      image: publicityChairPerson3,
     },
     {
       fullName: "Dr. Kuldeep Singh Yadav",
       college: "MANIT Bhopal, India",
-      image:publicityChairPerson4,
+      image: publicityChairPerson4,
     },
   ];
 
@@ -136,23 +136,24 @@ const OrganizingCommittee = () => {
     {
       fullName: "Dr. Jay Kumar Jain",
       college: "MANIT Bhopal, India",
-      image:organizingSecretaryPerson1,
+      image: organizingSecretaryPerson1,
     },
     {
       fullName: "Dr. Suman Das",
       college: "MANIT Bhopal, India",
-      image:organizingSecretaryPerson2,
+      image: organizingSecretaryPerson2,
     },
     {
       fullName: "Dr. Subhankar Dutta",
       college: "MANIT Bhopal, India",
-      image:organizingSecretaryPerson3,
+      image: organizingSecretaryPerson3,
     },
   ];
 
   return (
     <section id="organizingCommittee" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto">
+        {/* Tagline  */}
         <div className="text-center font-bold mb-16">
           <h2 className="text-4xl mb-4">
             <span className="text-black">Committee</span>
@@ -160,95 +161,166 @@ const OrganizingCommittee = () => {
           </h2>
           <div className="w-36 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* For Chief Patron, Patron & Chair Person */}
-          {mainHeads.map((data, index) => {
-            return (
-              <div
-                key={index}
-                className="mt-12 pt-8 pb-12 border bg-slate-50 rounded-lg shadow hover:shadow-md "
-              >
-                <div className="flex flex-col gap-8">
-                  <img src={data.image} alt={data.fullName} className="h-36 w-36 rounded-full mx-auto"/>
-                  <div className="text-center">
-                    <p>{data.title}</p>
-                    <p>{data.fullName}</p>
-                    <p>{data.designation}</p>
-                  </div>
+
+        {/* Chief Patron  */}
+        <div className="flex flex-col gap-12 justify-center items-center">
+          <h1 className="text-4xl font-semibold">Chief Patron</h1>
+          <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
+            <div className="flex flex-col gap-8">
+              <img
+                src={mainHeads[0].image}
+                alt={mainHeads[0].fullName}
+                className="h-36 w-36 rounded-full mx-auto"
+              />
+              <div className="text-center">
+                <p className="text-sm text-neutral-600">
+                  {mainHeads[0].fullName}
+                </p>
+                <p className="text-sm text-neutral-600">
+                  {mainHeads[0].designation}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Patrons  */}
+        <div className="mt-24 flex flex-col justify-center items-center gap-12">
+          <h1 className="text-4xl font-semibold">Patron</h1>
+          <div className="flex justify-center items-center gap-16">
+            {/* Patron 1 */}
+            <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
+              <div className="flex flex-col gap-8">
+                <img
+                  src={mainHeads[1].image}
+                  alt={mainHeads[1].fullName}
+                  className="h-36 w-36 rounded-full mx-auto"
+                />
+                <div className="text-center">
+                  <p className="text-sm text-neutral-600">
+                    {mainHeads[1].fullName}
+                  </p>
+                  <p className="text-sm text-neutral-600">
+                    {mainHeads[1].designation}
+                  </p>
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </div>
 
-        <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* For General Chair */}
-          <div>
-            <p className="mt-4 mb-8 text-center text-xl font-semibold">General Chair</p>
-            {genralChairMembers.map((data, index) => {
-              return (
-                <div
-                  key={index}
-                  className="mb-8 px-4 py-2 bg-slate-50 shadow border-l-4 border-red-600 rounded-lg"
-                >
-                  <div className="flex items-center gap-8">
-                    <img src={data.image} alt={data.fullName} className="h-20 w-20 rounded-full mx-auto"/>
-                    <div>
-                      <p>{data.fullName}</p>
-                      <p>{data.college}</p>
-                    </div>
-                  </div>
+            {/* Patron 2 */}
+            <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
+              <div className="flex flex-col gap-8">
+                <img
+                  src={mainHeads[2].image}
+                  alt={mainHeads[2].fullName}
+                  className="h-36 w-36 rounded-full mx-auto"
+                />
+                <div className="text-center">
+                  <p className="text-sm text-neutral-600">
+                    {mainHeads[2].fullName}
+                  </p>
+                  <p className="text-sm text-neutral-600">
+                    {mainHeads[2].designation}
+                  </p>
                 </div>
-              );
-            })}
-          </div>
-
-          {/* For General Co Chair */}
-          <div>
-            <p className="mt-4 mb-8 text-center text-xl font-semibold">
-              General Co-Chair
-            </p>
-            {generalCoChairMembers.map((data, index) => {
-              return (
-                <div
-                  key={index}
-                  className="mb-8 px-4 py-2 bg-slate-50 shadow border-l-4 border-red-600 rounded-lg"
-                >
-                  <div className="flex items-center gap-8">
-                     <img src={data.image} alt={data.fullName} className="h-20 w-20 rounded-full mx-auto"/>
-                    <div>
-                      <p>{data.fullName}</p>
-                      <p>{data.college}</p>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          {/* For Program Chair */}
-          <div>
-            <p className="mt-4 mb-8 text-center text-xl font-semibold">Program Chair</p>
-            {programChairMembers.map((data, index) => {
-              return (
-                <div
-                  key={index}
-                  className="mb-8 px-4 py-2 bg-slate-50 shadow border-l-4 border-red-600 rounded-lg"
-                >
-                  <div className="flex items-center gap-8">
-                    <img src={data.image} alt={data.fullName} className="h-20 w-20 rounded-full mx-auto"/>
-                    <div>
-                      <p>{data.fullName}</p>
-                      <p>{data.college}</p>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+        {/* General Chair  */}
+        <div className="mt-24 flex flex-col justify-center items-center gap-12">
+          <h1 className="text-4xl font-semibold">General Chair</h1>
+          <div className="flex justify-center items-center gap-16">
+            {/* General Chair 1 */}
+            <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
+              <div className="flex flex-col gap-8">
+                <img
+                  src={genralChairMembers[0].image}
+                  alt={genralChairMembers[0].fullName}
+                  className="h-36 w-36 rounded-full mx-auto"
+                />
+                <div className="text-center">
+                  <p className="text-sm text-neutral-600">
+                    {genralChairMembers[0].fullName}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* General Chair 2 */}
+            <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
+              <div className="flex flex-col gap-8">
+                <img
+                  src={genralChairMembers[1].image}
+                  alt={genralChairMembers[1].fullName}
+                  className="h-36 w-36 rounded-full mx-auto"
+                />
+                <div className="text-center">
+                  <p className="text-sm text-neutral-600">
+                    {genralChairMembers[1].fullName}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* General Co Chair  */}
+        <div className="mt-24 flex flex-col justify-center items-center gap-12">
+          <h1 className="text-4xl font-semibold">General Co-Chair</h1>
+          <div className="flex justify-center items-center gap-16">
+            <div className="flex justify-center items-center gap-16">
+              {generalCoChairMembers.map((data, idx) => {
+                return (
+                  <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md">
+                    <div className="flex flex-col gap-8">
+                      <img
+                        src={data.image}
+                        alt={data.fullName}
+                        className="h-36 w-36 rounded-full mx-auto"
+                      />
+                      <div className="text-center">
+                        <p className="text-sm text-neutral-600">
+                          {data.fullName}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* Program Chair  */}
+        <div className="mt-24 flex flex-col justify-center items-center gap-12">
+          <h1 className="text-4xl font-semibold">Program Chair</h1>
+          <div className="flex justify-center items-center gap-16">
+            <div className="flex justify-center items-center gap-16">
+              {programChairMembers.map((data, idx) => {
+                return (
+                  <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md">
+                    <div className="flex flex-col gap-8">
+                      <img
+                        src={data.image}
+                        alt={data.fullName}
+                        className="h-36 w-36 rounded-full mx-auto"
+                      />
+                      <div className="text-center">
+                        <p className="text-sm text-neutral-600">
+                          {data.fullName}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-24 grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* For Program Co Chair */}
           <div>
             <p className="mt-4 mb-8 text-center text-xl font-semibold">
@@ -261,7 +333,11 @@ const OrganizingCommittee = () => {
                   className="mb-8 px-4 py-2 bg-slate-50 shadow border-l-4 border-icosom-500 rounded-lg"
                 >
                   <div className="flex items-center gap-8">
-                     <img src={data.image} alt={data.fullName} className="h-20 w-20 rounded-full mx-auto"/>
+                    <img
+                      src={data.image}
+                      alt={data.fullName}
+                      className="h-20 w-20 rounded-full mx-auto"
+                    />
                     <div>
                       <p>{data.fullName}</p>
                       <p>{data.college}</p>
@@ -274,7 +350,9 @@ const OrganizingCommittee = () => {
 
           {/* For Publicity Chair */}
           <div>
-            <p className="mt-4 mb-8 text-center text-xl font-semibold">Publicity Chair</p>
+            <p className="mt-4 mb-8 text-center text-xl font-semibold">
+              Publicity Chair
+            </p>
             {publicityChairMembers.map((data, index) => {
               return (
                 <div
@@ -282,7 +360,11 @@ const OrganizingCommittee = () => {
                   className="mb-8 px-4 py-2 bg-slate-50 shadow border-l-4 border-icosom-500 rounded-lg"
                 >
                   <div className="flex items-center gap-8">
-                    <img src={data.image} alt={data.fullName} className="h-20 w-20 rounded-full mx-auto"/>
+                    <img
+                      src={data.image}
+                      alt={data.fullName}
+                      className="h-20 w-20 rounded-full mx-auto"
+                    />
                     <div>
                       <p>{data.fullName}</p>
                       <p>{data.college}</p>
@@ -305,7 +387,11 @@ const OrganizingCommittee = () => {
                   className="mb-8 px-4 py-2 bg-slate-50 shadow border-l-4 border-icosom-500 rounded-lg"
                 >
                   <div className="flex items-center gap-8">
-                    <img src={data.image} alt={data.fullName} className="h-20 w-20 rounded-full mx-auto"/>
+                    <img
+                      src={data.image}
+                      alt={data.fullName}
+                      className="h-20 w-20 rounded-full mx-auto"
+                    />
                     <div>
                       <p>{data.fullName}</p>
                       <p>{data.college}</p>

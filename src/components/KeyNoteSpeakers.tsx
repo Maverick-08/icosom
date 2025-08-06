@@ -14,7 +14,7 @@ const KeyNoteSpeakers = () => {
     },
     {
       name: "Hon Keung Tony Ng",
-      role: "Bentley University (USA)",
+      role: "Bentley University, USA",
       image: keynoteSpeaker3,
       initials: "HT",
     },
@@ -37,15 +37,16 @@ const KeyNoteSpeakers = () => {
           </p>
         </div>
        
-        <div className="lg:max-w-2xl mx-auto grid place-items-center grid-cols-1 md:grid-cols-3 gap-16">
+        <div className="lg:max-w-4xl mx-auto grid place-items-center grid-cols-1 md:grid-cols-3 gap-16">
           {speakers.map((speaker, index) => (
-            <div key={index} className="text-center">
-              <Avatar className="h-32 w-32 mx-auto mb-4 border-2 border-icosom-100">
+            <div key={index} className="text-center p-4 w-full bg-slate-50 rounded-lg shadow hover:shadow-md cursor-pointer">
+              {/* <Avatar className="h-32 w-32 mx-auto mb-4 border-2 border-icosom-100">
                 <AvatarImage src={speaker.image} className="border"/>
                 <AvatarFallback className="text-xl bg-icosom-100 text-icosom-800">
                   {speaker.initials}
                 </AvatarFallback>
-              </Avatar>
+              </Avatar> */}
+              <img src={speaker.image} alt={speaker.initials} className="mb-4 mx-auto"/>
               <h3 className="font-semibold text-lg text-gray-900 mb-1">{speaker.name}</h3>
               <p className="text-gray-600 text-sm">{speaker.role}</p>
             </div>

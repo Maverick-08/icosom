@@ -20,9 +20,9 @@ const Index = () => {
       <TracksSection />
       <KeyNoteSpeakers />
       <SpeakersSection />
+      <OrganizingCommittee />
       <DatesSection />
       <RegisterSection />
-      <OrganizingCommittee />
       <FooterSection />
     </div>
   );

@@ -31,7 +31,7 @@ const AboutSection = () => {
             About The Conference
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6"></div>
-          <p className="text-lg text-gray-600 max-w-4xl mx-auto">
+          <p className="text-lg text-left text-gray-600 max-w-6xl mx-auto">
             The conference aims to bring together
             researchers, academicians, and industry professionals to share
             insights and advancements in these interrelated fields. The
@@ -53,7 +53,7 @@ const AboutSection = () => {
               key={index}
               className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-100"
             >
-              <div className="mb-6">{feature.icon}</div>
+              {/* <div className="mb-6">{feature.icon}</div> */}
               <h3 className="text-xl font-semibold mb-4 text-gray-900">
                 {feature.title}
               </h3>

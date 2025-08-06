@@ -7,12 +7,12 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <div className="pt-24 container mx-auto px-4 md:px-6 py-24">
+      <div className="pt-32 container mx-auto px-4 md:px-6 py-24">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">Contact Us</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6 rounded-full"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Have any questions about ICOSOM 2025? Get in touch with our organizing committee.
+            Have any questions about ICOSOM 2026? Get in touch with our organizing committee.
           </p>
         </div>
         <div className="max-w-3xl mx-auto">

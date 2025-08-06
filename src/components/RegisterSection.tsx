@@ -4,15 +4,15 @@ const RegisterSection = () => {
   const registrationFeesData = [
     {
       participants: "Research Scholars",
-      price1: "4,000",
-      price2: "5,000",
+      price1: "5,000",
+      price2: "6,000",
       price3: "150",
       price4: "175",
     },
     {
       participants: "Academicians",
-      price1: "6,000",
-      price2: "7,000",
+      price1: "7,000",
+      price2: "8,000",
       price3: "250",
       price4: "300",
     },

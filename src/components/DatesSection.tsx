@@ -1,5 +1,3 @@
-
-import React from 'react';
 import { Calendar } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 

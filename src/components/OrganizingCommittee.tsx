@@ -244,6 +244,9 @@ const OrganizingCommittee = () => {
                   <p className="text-sm text-neutral-600">
                     {genralChairMembers[0].fullName}
                   </p>
+                  <p className="text-sm text-neutral-600">
+                    {genralChairMembers[0].college}
+                  </p>
                 </div>
               </div>
             </div>
@@ -259,6 +262,9 @@ const OrganizingCommittee = () => {
                 <div className="text-center">
                   <p className="text-sm text-neutral-600">
                     {genralChairMembers[1].fullName}
+                  </p>
+                  <p className="text-sm text-neutral-600">
+                    {genralChairMembers[1].college}
                   </p>
                 </div>
               </div>
@@ -283,6 +289,9 @@ const OrganizingCommittee = () => {
                       <div className="text-center">
                         <p className="text-sm text-neutral-600">
                           {data.fullName}
+                        </p>
+                        <p className="text-sm text-neutral-600">
+                          {data.college}
                         </p>
                       </div>
                     </div>
@@ -310,6 +319,9 @@ const OrganizingCommittee = () => {
                       <div className="text-center">
                         <p className="text-sm text-neutral-600">
                           {data.fullName}
+                        </p>
+                        <p className="text-sm text-neutral-600">
+                          {data.college}
                         </p>
                       </div>
                     </div>

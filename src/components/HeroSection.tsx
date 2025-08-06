@@ -49,7 +49,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-center lg:text-left text-2xl lg:text-3xl mt-4 lg:mt-6 font-bold text-icosom-300">
-              27TH - 28TH FEBRUARY, 2026
+              27<sup>th</sup> - 28<sup>th</sup> FEBRUARY, 2026
             </p>
 
             <p className="text-center lg:text-left mt-8 text-xl font-semibold">Organized By :</p>

@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const RegisterSection = () => {
+  const navigate = useNavigate();
   const registrationFeesData = [
     {
       participants: "Research Scholars",
@@ -46,22 +48,27 @@ const RegisterSection = () => {
         <div>
           <div className="max-w-6xl mx-auto ">
             <div className="grid grid-cols-5">
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-l border-t border-slate-300 ">Participants</p>
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
-                Indians Early Bird <br/> (INR)
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-l border-t border-slate-300 ">
+                Participants
               </p>
               <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
-                Indians Late <br/>(INR)
+                Indians Early Bird <br /> (INR)
               </p>
               <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
-                Overseas Early Bird <br/>(USD)
+                Indians Late <br />
+                (INR)
+              </p>
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
+                Overseas Early Bird <br />
+                (USD)
               </p>
               <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-r border-t border-slate-300 ">
-                Overseas Late <br/>(USD)
+                Overseas Late <br />
+                (USD)
               </p>
 
               {registrationFeesData.map((data) => {
-                return ( 
+                return (
                   <>
                     <p className="pt-4 pb-4 border-b border-l border-slate-300 text-center text-xs md:text-sm lg:text-lg">
                       {data.participants}
@@ -85,11 +92,23 @@ const RegisterSection = () => {
           </div>
         </div>
         <div className="max-w-6xl mx-auto mt-4">
-          <span className="text-red-500 font-semibold">NOTE :&nbsp;</span><span>25% off will be given to the authors from 
-          MANIT Bhopal, India.</span>
+          <div className="text-xl text-red-500 font-semibold">📌&nbsp;NOTE</div>
+          <div>
+            <div>
+              <span className="font-semibold text-red-500">1.</span> 25% off
+              will be given to the authors from MANIT Bhopal, India.
+            </div>
+            <div>
+              <span className="font-semibold text-red-500">2.</span>
+              The Microsoft CMT service was used for managing the peer-reviewing
+              process for this conference. This service was provided for free by
+              Microsoft and they bore all expenses, including costs for Azure
+              cloud services as well as for software development and support.
+            </div>
+          </div>
         </div>
         <div className="mt-12 text-center">
-          <a
+          {/* <a
             href="https://forms.gle/6179vBc7cdA8yg3t8"
             target="_blank"
             rel="noopener noreferrer"
@@ -97,7 +116,15 @@ const RegisterSection = () => {
           >
             Start Registration Process
             <ArrowRight className="w-5 h-5 ml-2" />
-          </a>
+          </a> */}
+          <button
+            onClick={() => {
+              navigate("/update");
+            }}
+            className="inline-flex items-center px-6 py-3 bg-icosom-600 text-white font-semibold rounded-lg hover:bg-icosom-700 transition-all duration-300"
+          >
+            Start Registration Process <ArrowRight className="w-5 h-5 ml-2" />
+          </button>
         </div>
       </div>
     </section>

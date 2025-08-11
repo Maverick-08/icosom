@@ -50,17 +50,16 @@ const Papers = () => {
                   <div className="px-6 text-left text-neutral-600">
                     <p>
                       We invite researchers, academics, and professionals to
-                      submit abstracts for oral and poster presentations at the
-                      45th Annual Convention of Indian Society for Probability
-                      and Statistics (ISPS) in conjunction with the
-                      International Conference on Recent Advances and Innovative
-                      Statistics with Enhancing Data Science (IC-RAISE DS).
+                      submit abstracts and full length papers for oral and
+                      poster presentations at the 1<sup>st</sup> International
+                      Conference on Statistics, Optimization and Machine
+                      Learning(ICOSOM).
                     </p>
                   </div>
                 </div>
 
                 {/* Abstract Submission Guidelines  */}
-                <div className="w-full flex flex-col">
+                <div className="w-full flex flex-col gap-4">
                   {/* Title  */}
                   <div className="flex items-center gap-2">
                     <BsCheck2Circle className="h-6 w-6" />
@@ -90,23 +89,15 @@ const Papers = () => {
                         <span className="text-neutral-900 font-semibold">
                           3.{" "}
                         </span>
-                        Supporting documents (optional) should be in DOCX
+                        Supporting documents (optional) should be in DOCX/PDF
                         format, maximum 5MB.
-                      </li>
-                      <li>
-                        <span className="text-neutral-900 font-semibold">
-                          4.{" "}
-                        </span>
-                        Full papers (if required after abstract acceptance)
-                        should be formatted according to the conference
-                        template, not exceeding 10 pages including references.
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 {/* Paper Submission Guidelines  */}
-                <div className="w-full flex flex-col">
+                <div className="w-full flex flex-col gap-4">
                   {/* Title  */}
                   <div className="flex items-center gap-2">
                     <BsCheck2Circle className="h-6 w-6" />
@@ -115,7 +106,48 @@ const Papers = () => {
                     </span>
                   </div>
                   {/* content  */}
-                  <div></div>
+                  <div className="px-6 text-left text-neutral-600">
+                    <p>
+                      Full papers (if required after abstract acceptance) should
+                      be formatted according to the conference template, not
+                      exceeding 8 pages including references.
+                    </p>
+                    <ul className="flex flex-col gap-2">
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          1.{" "}
+                        </span>
+                        The user will need to have a CMT account before they try
+                        to submit their paper.
+                      </li>
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          2.{" "}
+                        </span>
+                        Here is a link to create the account:{" "}
+                        <a
+                          className="text-blue-500 underline"
+                          target="_blank"
+                          href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html"
+                        >
+                          Click here
+                        </a>
+                      </li>
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          3.{" "}
+                        </span>
+                        Here is a link for authors on how to submit a paper:{" "}
+                        <a
+                          className="text-blue-500 underline"
+                          target="_blank"
+                          href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html"
+                        >
+                          Click here
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
 
                 {/* Poster Submission Guidelines  */}
@@ -128,7 +160,35 @@ const Papers = () => {
                     </span>
                   </div>
                   {/* content  */}
-                  <div></div>
+                  <div className="px-6 text-left text-neutral-600">
+                    <ul className="flex flex-col gap-2">
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          1.{" "}
+                        </span>
+                        The poster should measure 60 cm in width and 90 cm in
+                        height, with the layout in portrait orientation to
+                        ensure consistency across the display area.
+                      </li>
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          2.{" "}
+                        </span>
+                        A high-resolution PDF version of the poster must be
+                        submitted by the abstract submission deadline for review
+                        and inclusion in the conference materials.
+                      </li>
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          3.{" "}
+                        </span>
+                        Presenters are expected to be present beside their
+                        posters during the designated poster session times to
+                        engage with attendees, explain their research, and
+                        answer queries.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -137,10 +197,8 @@ const Papers = () => {
             <div className="col-span-1 ">
               {/* content  */}
               <div className="flex flex-col gap-8">
-
                 {/* Segment 1 - Important Dates  */}
                 <div className="w-full p-4 border rounded-lg">
-
                   {/* Title  */}
                   <div className="flex justify-center items-center gap-2">
                     <LuCalendar className="h-6 w-6" />{" "}
@@ -233,23 +291,36 @@ const Papers = () => {
                   </div>
                 </div>
 
-                {/* Submission Process  */}
+                {/* Where to Submit */}
                 <div className="w-full p-4 border rounded-lg">
-                  <div className="flex justify-center gap-2">
+                  <div className="flex gap-2">
                     <BsCheck2Circle className="h-6 w-6" />{" "}
-                    <span className="text-xl font-semibold">
-                      Submission Process
-                    </span>
+                    <div>
+                      <h1 className="text-xl font-semibold">Where to Submit</h1>
+                      <p className="text-left text-neutral-600">
+                        <span className="font-medium">CMT submission link</span>{" "}
+                        will be coming shortly
+                      </p>
+                    </div>
                   </div>
                 </div>
 
-                {/* Where to Submit */}
+                {/* CMT Acknowledgement  */}
                 <div className="w-full p-4 border rounded-lg">
-                  <div className="flex justify-center gap-2">
-                    <BsCheck2Circle className="h-6 w-6" />{" "}
-                    <span className="text-xl font-semibold">
-                      Where to Submit
-                    </span>
+                  <div className="flex gap-2 justify-center">
+                    <BsCheck2Circle className="h-6 w-6 shrink-0" />
+                    <div className="flex flex-col">
+                      <span className="text-xl font-semibold">
+                        CMT Acknowledgement
+                      </span>
+                      <p>
+                        The Microsoft CMT service was used for managing the
+                        peer-reviewing process for this conference. This service
+                        was provided for free by Microsoft and they bore all
+                        expenses, including costs for Azure cloud services as
+                        well as for software development and support.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

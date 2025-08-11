@@ -91,22 +91,7 @@ const RegisterSection = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto mt-4">
-          <div className="text-xl text-red-500 font-semibold">📌&nbsp;NOTE</div>
-          <div>
-            <div>
-              <span className="font-semibold text-red-500">1.</span> 25% off
-              will be given to the authors from MANIT Bhopal, India.
-            </div>
-            <div>
-              <span className="font-semibold text-red-500">2.</span>
-              The Microsoft CMT service was used for managing the peer-reviewing
-              process for this conference. This service was provided for free by
-              Microsoft and they bore all expenses, including costs for Azure
-              cloud services as well as for software development and support.
-            </div>
-          </div>
-        </div>
+        
         <div className="mt-12 text-center">
           {/* <a
             href="https://forms.gle/6179vBc7cdA8yg3t8"

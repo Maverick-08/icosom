@@ -26,10 +26,10 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
-    { name: 'Tracks', href: '/tracks' },
     { name: 'Speakers', href: '/speakers' },
-    { name: 'Important Dates', href: '/dates' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Papers', href: '/paper' },
+    { name: 'Awards', href: '/awards' },
+    { name: 'Dates', href: '/dates' },
   ];
   
   return (

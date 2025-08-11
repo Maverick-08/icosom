@@ -53,7 +53,7 @@ const Papers = () => {
                       submit abstracts and full length papers for oral and
                       poster presentations at the 1<sup>st</sup> International
                       Conference on Statistics, Optimization and Machine
-                      Learning(ICOSOM).
+                      Learning (ICOSOM 2026).
                     </p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ const Papers = () => {
                   <div className="flex items-center gap-2">
                     <BsCheck2Circle className="h-6 w-6" />
                     <span className="text-lg font-semibold">
-                      Poster Submission Guidelines
+                      Poster Submission Guidelines (After Abstract Acceptance)
                     </span>
                   </div>
                   {/* content  */}
@@ -186,6 +186,12 @@ const Papers = () => {
                         posters during the designated poster session times to
                         engage with attendees, explain their research, and
                         answer queries.
+                      </li>
+                      <li>
+                        <span className="text-neutral-900 font-semibold">
+                          4.{" "}
+                        </span>
+                        Presenters are requested to submit posters in their CMT account.
                       </li>
                     </ul>
                   </div>

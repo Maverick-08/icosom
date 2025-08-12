@@ -304,15 +304,14 @@ const Papers = () => {
                     <div>
                       <h1 className="text-xl font-semibold">Where to Submit</h1>
                       <p className="text-left text-neutral-600">
-                        <span className="font-medium">CMT submission link</span>{" "}
-                        will be coming shortly
+                        Follow this <a target="_blank" rel="noopener noreferrer" className="text-blue-500 underline" href="https://cmt3.research.microsoft.com/ICOSOM2026/Submission/Index">Link</a>
                       </p>
                     </div>
                   </div>
                 </div>
 
                 {/* CMT Acknowledgement  */}
-                <div className="w-full p-4 border rounded-lg">
+                {/* <div className="w-full p-4 border rounded-lg">
                   <div className="flex gap-2 justify-center">
                     <BsCheck2Circle className="h-6 w-6 shrink-0" />
                     <div className="flex flex-col">
@@ -328,7 +327,7 @@ const Papers = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

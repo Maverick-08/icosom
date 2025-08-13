@@ -241,7 +241,7 @@ const Papers = () => {
                             Notification of Acceptance
                           </h1>
                           <p className="text-left text-neutral-600">
-                            Jannuary 10, 2026
+                            January 10, 2026
                           </p>
                         </div>
                       </div>
@@ -257,7 +257,7 @@ const Papers = () => {
                             Full Paper Submission Deadline
                           </h1>
                           <p className="text-left text-neutral-600">
-                            Jannuary 20, 2026
+                            January 20, 2026
                           </p>
                         </div>
                       </div>
@@ -273,7 +273,7 @@ const Papers = () => {
                             Early Registration Deadline
                           </h1>
                           <p className="text-left text-neutral-600">
-                            Jannuary 31, 2026
+                            January 31, 2026
                           </p>
                         </div>
                       </div>

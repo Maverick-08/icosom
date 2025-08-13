@@ -8,15 +8,15 @@ const DatesSection = () => {
       event: "Abstract Submission Deadline"
     },
     {
-      date: "Jannuary 10, 2026",
+      date: "January 10, 2026",
       event: "Notification of Acceptance"
     },
     {
-      date: "Jannuary 20, 2026",
+      date: "January 20, 2026",
       event: "Full Paper Submission Deadline"
     },
     {
-      date: "Jannuary 31, 2026",
+      date: "January 31, 2026",
       event: "Early Registration Deadline"
     },
     {

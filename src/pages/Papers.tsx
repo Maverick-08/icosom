@@ -53,7 +53,7 @@ const Papers = () => {
                       submit abstracts and full length papers for oral and
                       poster presentations at the 1<sup>st</sup> International
                       Conference on Statistics, Optimization and Machine
-                      Learning (ICOSOM 2026).
+                      Learning (ICOSOM 2026). Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.
                     </p>
                   </div>
                 </div>
@@ -289,7 +289,7 @@ const Papers = () => {
                             Conference Dates
                           </h1>
                           <p className="text-left text-neutral-600">
-                            Februaury 27-28, 2026
+                            February 27-28, 2026
                           </p>
                         </div>
                       </div>

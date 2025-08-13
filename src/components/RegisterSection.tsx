@@ -5,7 +5,7 @@ const RegisterSection = () => {
   const navigate = useNavigate();
   const registrationFeesData = [
     {
-      participants: "Research Scholars",
+      participants: "Students",
       price1: "5,000",
       price2: "6,000",
       price3: "150",
@@ -19,7 +19,7 @@ const RegisterSection = () => {
       price4: "300",
     },
     {
-      participants: "Industry Representative",
+      participants: "Industry Participants",
       price1: "8,000",
       price2: "10,000",
       price3: "300",

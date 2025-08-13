@@ -30,6 +30,7 @@ const Navbar = () => {
     { name: 'Papers', href: '/paper' },
     { name: 'Awards', href: '/awards' },
     { name: 'Dates', href: '/dates' },
+    { name: 'Sponsors', href: '/sponsors' },
   ];
   
   return (

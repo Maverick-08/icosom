@@ -96,7 +96,8 @@ const RegisterSection = () => {
                 <span className="font-medium">Name:</span> MANIT, Bhopal <br />
                 <span className="font-medium">Account Name:</span> Director, MANIT Bhopal <br />
                 <span className="font-medium">Account Number:</span> 10020150107 <br />
-                <span className="font-medium">IFSC Code:</span> SBIN0001608 SWIFT Code: SBININBB
+                <span className="font-medium">IFSC Code:</span> SBIN0001608 <br />
+                <span className="font-medium">SWIFT Code:</span> SBININBB
               </p>
               <p>Mention "ICOSOM2026" in the payment remarks.</p>
             </div>

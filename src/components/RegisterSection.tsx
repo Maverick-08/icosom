@@ -48,21 +48,21 @@ const RegisterSection = () => {
         <div>
           <div className="max-w-6xl mx-auto ">
             <div className="grid grid-cols-5">
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-l border-t border-slate-300 ">
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border border-slate-300 ">
                 Participants
               </p>
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-t border-b border-slate-300 ">
                 Indians Early Bird <br /> (INR)
               </p>
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border border-slate-300 ">
                 Indians Late <br />
                 (INR)
               </p>
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-t border-slate-300 ">
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border border-slate-300 ">
                 Overseas Early Bird <br />
                 (USD)
               </p>
-              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border-b border-r border-t border-slate-300 ">
+              <p className="pt-4 pb-4 text-center text-xs lg:text-xl font-semibold border border-slate-300 ">
                 Overseas Late <br />
                 (USD)
               </p>
@@ -70,7 +70,7 @@ const RegisterSection = () => {
               {registrationFeesData.map((data) => {
                 return (
                   <>
-                    <p className="pt-4 pb-4 border-b border-l border-slate-300 text-center text-xs md:text-sm lg:text-lg">
+                    <p className="pt-4 pb-4 border-b border-l border-r border-slate-300 text-center text-xs md:text-sm lg:text-lg">
                       {data.participants}
                     </p>
                     <p className="pt-4 pb-4 border-b border-slate-300 text-center text-xs md:text-sm lg:text-lg">
@@ -93,23 +93,23 @@ const RegisterSection = () => {
         </div>
         
         <div className="mt-12 text-center">
-          {/* <a
-            href="https://forms.gle/6179vBc7cdA8yg3t8"
+          <a
+            href="https://forms.gle/YntYeibCeY6Vw9nG7"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-icosom-600 text-white font-semibold rounded-lg hover:bg-icosom-700 transition-all duration-300"
           >
             Start Registration Process
             <ArrowRight className="w-5 h-5 ml-2" />
-          </a> */}
-          <button
+          </a>
+          {/* <button
             onClick={() => {
               navigate("/update");
             }}
             className="inline-flex items-center px-6 py-3 bg-icosom-600 text-white font-semibold rounded-lg hover:bg-icosom-700 transition-all duration-300"
           >
             Start Registration Process <ArrowRight className="w-5 h-5 ml-2" />
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

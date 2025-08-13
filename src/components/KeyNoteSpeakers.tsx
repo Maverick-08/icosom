@@ -13,7 +13,7 @@ const KeyNoteSpeakers = () => {
       initials: "AS",
     },
     {
-      name: "Hon Keung Tony Ng",
+      name: "Prof. Hon Keung Tony Ng",
       role: "Bentley University, USA",
       image: keynoteSpeaker3,
       initials: "HT",

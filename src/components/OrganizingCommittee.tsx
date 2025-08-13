@@ -3,6 +3,7 @@ import patron from "../assets/dean.jpeg";
 import charPerson from "../assets/chairPerson.jpg";
 import generalChairMember1 from "../assets/generalChairMember1.jpg";
 import generalChairMember2 from "../assets/generalChairMember2.jpg";
+import generalChairMember3 from "../assets/keynoteSpeaker3.png";
 import generalCoChairPerson1 from "../assets/generalCoChairPerson1.jpg";
 import generalCoChairPerson2 from "../assets/generalCoChairPerson2.jpg";
 import generalCoChairPerson3 from "../assets/generalCoChairPerson3.jpg";
@@ -24,19 +25,19 @@ const OrganizingCommittee = () => {
   const mainHeads = [
     {
       title: "Chief Patron",
-      fullName: "Prof. (Dr.) Karunesh Kumar Shukla",
+      fullName: "Prof. Karunesh Kumar Shukla",
       designation: "Director, MANIT Bhopal",
       image: chiefPatron,
     },
     {
       title: "Patron",
-      fullName: "Prof. (Dr.) S. P. S. Rajput",
+      fullName: "Prof. S. P. S. Rajput",
       designation: "Dean ID & IR",
       image: patron,
     },
     {
       title: "Chair Person",
-      fullName: "Prof. (Dr.) Namita Srivastava",
+      fullName: "Prof. Namita Srivastava",
       designation: "MANIT Bhopal, India",
       image: charPerson,
     },
@@ -44,30 +45,35 @@ const OrganizingCommittee = () => {
 
   const genralChairMembers = [
     {
-      fullName: "Prof. (Dr.)  Sanjay Sharma",
+      fullName: "Prof. Sanjay Sharma",
       college: "MANIT Bhopal, India",
       image: generalChairMember1,
     },
     {
-      fullName: "Prof. (Dr.) Debasis Kundu",
+      fullName: "Prof. Debasis Kundu",
       college: "IIT Kanpur, India",
       image: generalChairMember2,
+    },
+    {
+      fullName: "Prof. Hon Keung Tony Ng",
+      college: "Bentley University, USA",
+      image: generalChairMember3,
     },
   ];
 
   const generalCoChairMembers = [
     {
-      fullName: "Prof. (Dr.)  Sujoy Das",
+      fullName: "Prof. Sujoy Das",
       college: "MANIT Bhopal, India",
       image: generalCoChairPerson1,
     },
     {
-      fullName: "Prof. (Dr.) Chakraborty",
+      fullName: "Prof. D Chakraborty",
       college: " IIT Kharagpur, India",
       image: generalCoChairPerson2,
     },
     {
-      fullName: "Prof. (Dr.)  M. Shakya",
+      fullName: "Prof. M. Shakya",
       college: "MANIT Bhopal, India",
       image: generalCoChairPerson3,
     },
@@ -75,12 +81,12 @@ const OrganizingCommittee = () => {
 
   const programChairMembers = [
     {
-      fullName: "Dr. Usha Chouhan",
+      fullName: "Prof. Usha Chouhan",
       college: "MANIT Bhopal, India",
       image: programChairPerson1,
     },
     {
-      fullName: "Dr. CK Verma",
+      fullName: "Prof. Chandan Verma",
       college: "MANIT Bhopal, India",
       image: programChairPerson2,
     },
@@ -269,6 +275,25 @@ const OrganizingCommittee = () => {
                 </div>
               </div>
             </div>
+
+             {/* General Chair 3 */}
+            <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
+              <div className="flex flex-col gap-8">
+                <img
+                  src={genralChairMembers[2].image}
+                  alt={genralChairMembers[2].fullName}
+                  className="h-36 w-36 rounded-full mx-auto"
+                />
+                <div className="text-center">
+                  <p className="text-sm text-neutral-600">
+                    {genralChairMembers[2].fullName}
+                  </p>
+                  <p className="text-sm text-neutral-600">
+                    {genralChairMembers[2].college}
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -305,6 +330,36 @@ const OrganizingCommittee = () => {
         {/* Program Chair  */}
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">Program Chair</h1>
+          <div className="flex justify-center items-center gap-16">
+            <div className="flex justify-center items-center gap-16">
+              {programChairMembers.map((data, idx) => {
+                return (
+                  <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md">
+                    <div className="flex flex-col gap-8">
+                      <img
+                        src={data.image}
+                        alt={data.fullName}
+                        className="h-36 w-36 rounded-full mx-auto"
+                      />
+                      <div className="text-center">
+                        <p className="text-sm text-neutral-600">
+                          {data.fullName}
+                        </p>
+                        <p className="text-sm text-neutral-600">
+                          {data.college}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* Technical Chair  */}
+        <div className="mt-24 flex flex-col justify-center items-center gap-12">
+          <h1 className="text-4xl font-semibold">Technical Program Chair</h1>
           <div className="flex justify-center items-center gap-16">
             <div className="flex justify-center items-center gap-16">
               {programChairMembers.map((data, idx) => {

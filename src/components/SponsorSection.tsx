@@ -44,8 +44,8 @@ const SponsorSection = () => {
 
   return (
     <div className="w-full max-w-7xl mx-auto">
-      <h1 className="text-4xl">Exclusive Sponsorship Levels and Benefits</h1>
-      <div className="mt-4 h-1px border"></div>
+      <h1 className="text-4xl font-medium text-center">Exclusive Sponsorship Levels and Benefits</h1>
+      <div className="mt-8 h-1px border"></div>
       <div className="overflow-x-auto">
         <table className="border border-blue-900 text-sm text-center w-full">
           <thead>

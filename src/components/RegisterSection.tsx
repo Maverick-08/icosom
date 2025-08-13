@@ -73,13 +73,13 @@ const RegisterSection = () => {
                     <p className="pt-4 pb-4 border-b border-l border-r border-slate-300 text-center text-xs md:text-sm lg:text-lg">
                       {data.participants}
                     </p>
-                    <p className="pt-4 pb-4 border-b border-slate-300 text-center text-xs md:text-sm lg:text-lg">
+                    <p className="pt-4 pb-4 border-b border-r border-slate-300 text-center text-xs md:text-sm lg:text-lg">
                       {data.price1}
                     </p>
-                    <p className="pt-4 pb-4 border-b border-slate-300 text-center text-xs md:text-sm lg:text-lg">
+                    <p className="pt-4 pb-4 border-b border-r border-slate-300 text-center text-xs md:text-sm lg:text-lg">
                       {data.price2}
                     </p>
-                    <p className="pt-4 pb-4 border-b border-slate-300 text-center text-xs md:text-sm lg:text-lg">
+                    <p className="pt-4 pb-4 border-b border-r border-slate-300 text-center text-xs md:text-sm lg:text-lg">
                       {data.price3}
                     </p>
                     <p className="pt-4 pb-4 border-b border-r border-slate-300 text-center text-xs md:text-sm lg:text-lg">
@@ -89,9 +89,20 @@ const RegisterSection = () => {
                 );
               })}
             </div>
+            <div className="pt-4">
+              <div className="text-2xl text-red-600">📌 NOTE</div>
+              <p className="pt-2">
+                <span className="font-medium">Bank Name:</span> State Bank of India Branch <br />
+                <span className="font-medium">Name:</span> MANIT, Bhopal <br />
+                <span className="font-medium">Account Name:</span> Director, MANIT Bhopal <br />
+                <span className="font-medium">Account Number:</span> 10020150107 <br />
+                <span className="font-medium">IFSC Code:</span> SBIN0001608 SWIFT Code: SBININBB
+              </p>
+              <p>Mention "ICOSOM2026" in the payment remarks.</p>
+            </div>
           </div>
         </div>
-        
+
         <div className="mt-12 text-center">
           <a
             href="https://forms.gle/YntYeibCeY6Vw9nG7"

@@ -225,7 +225,7 @@ const Papers = () => {
                             Abstract Submission Deadline
                           </h1>
                           <p className="text-left text-neutral-600">
-                            December 31, 2025
+                            December 15, 2025
                           </p>
                         </div>
                       </div>

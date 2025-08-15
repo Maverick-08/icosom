@@ -10,6 +10,7 @@ import RegisterSection from '@/components/RegisterSection';
 import FooterSection from '@/components/FooterSection';
 import OrganizingCommittee from '@/components/OrganizingCommittee';
 import KeyNoteSpeakers from '@/components/KeyNoteSpeakers';
+import Places from '@/components/Places';
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
       <OrganizingCommittee />
       <DatesSection />
       <RegisterSection />
+      <Places />
       <FooterSection />
     </div>
   );

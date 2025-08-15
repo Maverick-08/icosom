@@ -32,8 +32,10 @@ const OurSponsorSection = () => {
         <h1 className="text-4xl font-medium text-center mb-4">Our Sponsors</h1>
         <div className="w-24 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6"></div>
 
+        <p className="text-center text-gray-500">To be announced soon</p>
+
         {/* Infinite Logo Marquee */}
-        <div className="relative overflow-hidden">
+        {/* <div className="relative overflow-hidden">
           <div className="flex pt-20 pb-9 animate-marquee space-x-8">
             {duplicatedSponsors.map((sponsor, index) => (
               <div key={index} className="flex-shrink-0 p-5">
@@ -46,7 +48,7 @@ const OurSponsorSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

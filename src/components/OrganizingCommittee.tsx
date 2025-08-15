@@ -161,7 +161,7 @@ const OrganizingCommittee = () => {
       <div className="max-w-6xl mx-auto">
         {/* Tagline  */}
         <div className="text-center font-bold mb-16">
-          <h2 className="text-4xl mb-4">
+          <h2 className="text-4xl flex flex-wrap justify-center mb-4">
             <span className="text-black">Committee</span>
             <span className="text-black ml-4">Members</span>
           </h2>
@@ -193,7 +193,7 @@ const OrganizingCommittee = () => {
         {/* Patrons  */}
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">Patron</h1>
-          <div className="flex justify-center items-center gap-16">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-16">
             {/* Patron 1 */}
             <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
               <div className="flex flex-col gap-8">
@@ -215,7 +215,7 @@ const OrganizingCommittee = () => {
 
             {/* Patron 2 */}
             <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
-              <div className="flex flex-col gap-8">
+              <div className="h-full flex flex-col gap-8">
                 <img
                   src={mainHeads[2].image}
                   alt={mainHeads[2].fullName}
@@ -237,10 +237,10 @@ const OrganizingCommittee = () => {
         {/* General Chair  */}
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">General Chair</h1>
-          <div className="flex justify-center items-center gap-16">
+          <div className="flex flex-col sm:flex-rowjustify-center items-center gap-16">
             {/* General Chair 1 */}
             <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
-              <div className="flex flex-col gap-8">
+              <div className="h-full flex flex-col gap-8">
                 <img
                   src={genralChairMembers[0].image}
                   alt={genralChairMembers[0].fullName}
@@ -301,7 +301,7 @@ const OrganizingCommittee = () => {
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">General Co-Chair</h1>
           <div className="flex justify-center items-center gap-16">
-            <div className="flex justify-center items-center gap-16">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-16">
               {generalCoChairMembers.map((data, idx) => {
                 return (
                   <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md">
@@ -331,7 +331,7 @@ const OrganizingCommittee = () => {
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">Program Chair</h1>
           <div className="flex justify-center items-center gap-16">
-            <div className="flex justify-center items-center gap-16">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-16">
               {programChairMembers.map((data, idx) => {
                 return (
                   <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md">
@@ -361,7 +361,7 @@ const OrganizingCommittee = () => {
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">Technical Program Chair</h1>
           <div className="flex justify-center items-center gap-16">
-            <div className="flex justify-center items-center gap-16">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-16">
               {programChairMembers.map((data, idx) => {
                 return (
                   <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md">

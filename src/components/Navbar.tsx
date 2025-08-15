@@ -75,12 +75,12 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="lg:hidden fixed inset-0 bg-white/95 backdrop-blur-md pt-32 px-4 z-40 animate-fade-in">
-            <div className="flex flex-col space-y-6 items-center">
+            <div className="flex  flex-col space-y-6 bg-white p-4 items-center">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.href}
-                  className="text-icosom-dark text-lg font-medium"
+                  className="text-icosom-dark  text-lg font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}

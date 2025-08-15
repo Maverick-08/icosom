@@ -13,7 +13,7 @@ import KeyNoteSpeakers from '@/components/KeyNoteSpeakers';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen min-w-full">
       <Navbar />
       <HeroSection />
       <AboutSection />

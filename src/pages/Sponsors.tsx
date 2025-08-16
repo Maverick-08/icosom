@@ -1,5 +1,6 @@
 import FooterSection from "@/components/FooterSection"
 import Navbar from "@/components/Navbar"
+import OurSponsorSection from "@/components/OurSponsorSection"
 import SponsorSection from "@/components/SponsorSection"
 
 
@@ -7,6 +8,9 @@ const Sponsors = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
+      <div className="pt-36">
+        <OurSponsorSection />
+      </div>
       <div className="py-36">
         <SponsorSection />
       </div>

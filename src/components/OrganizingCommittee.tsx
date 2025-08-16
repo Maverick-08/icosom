@@ -237,7 +237,7 @@ const OrganizingCommittee = () => {
         {/* General Chair  */}
         <div className="mt-24 flex flex-col justify-center items-center gap-12">
           <h1 className="text-4xl font-semibold">General Chair</h1>
-          <div className="flex flex-col sm:flex-rowjustify-center items-center gap-16">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-16">
             {/* General Chair 1 */}
             <div className="border px-12 py-8 bg-slate-50 rounded-lg shadow hover:shadow-md ">
               <div className="h-full flex flex-col gap-8">

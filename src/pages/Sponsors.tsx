@@ -8,9 +8,6 @@ const Sponsors = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <div className="pt-36">
-        <OurSponsorSection />
-      </div>
       <div className="py-36">
         <SponsorSection />
       </div>

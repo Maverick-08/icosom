@@ -4,20 +4,20 @@ import { Card, CardContent } from '@/components/ui/card';
 const DatesSection = () => {
   const importantDates = [
     {
-      date: "December 31, 2025",
-      event: "Abstract Submission Deadline"
+      date: "December 15, 2025",
+      event: "Full Paper / Abstract / Poster Submission Deadline"
     },
     {
-      date: "January 10, 2026",
+      date: "January 15, 2026",
       event: "Notification of Acceptance"
-    },
-    {
-      date: "January 20, 2026",
-      event: "Full Paper Submission Deadline"
     },
     {
       date: "January 31, 2026",
       event: "Early Registration Deadline"
+    },
+    {
+      date: "February 15, 2026",
+      event: "Late Registration Deadline"
     },
     {
       date: "February 27-28, 2026",

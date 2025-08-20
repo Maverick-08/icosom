@@ -9,7 +9,7 @@ import generalCoChairPerson2 from "../assets/generalCoChairPerson2.jpg";
 import generalCoChairPerson3 from "../assets/generalCoChairPerson3.jpg";
 import programChairPerson1 from "../assets/programChairMember1.png";
 import programChairPerson2 from "../assets/programChairMember2.png";
-import programChairPerson3 from "../assets/programChairMember3.jpeg";
+import programChairPerson3 from "../assets/programChairMember3.jpg";
 import programCoChairPerson1 from "../assets/programCoChairMember1.jpg";
 import programCoChairPerson2 from "../assets/programCoChairMember2.jpg";
 import programCoChairPerson3 from "../assets/programCoChairMember3.jpg";
@@ -182,6 +182,46 @@ const OrganizingCommittee = () => {
       fullName:"Dr. Deepak Prajapati",
       department:"Department of Decision Sciences",
       college:" IIM Lucknow",
+    },
+    {
+      fullName:"Dr. Roberto Vila Gabriel",
+      department:"Department of Mathematics",
+      college:" University of Brasilia, Brazil",
+    },
+    {
+      fullName:"Dr. Ashok Das",
+      department:"Department of Mathematics & Computing",
+      college:" IIT, Dhanbad",
+    },
+    {
+      fullName:"Dr. Niraj Kumar",
+      department:"Department of Computer Science & Engineering",
+      college:" IIT, Goa",
+    },
+    {
+      fullName:"Dr. Tanmay Kayal",
+      department:"Department of Mathematics & Statistical Science",
+      college:" IIT, Mandi",
+    },
+    {
+      fullName:"Dr. Michael Yuhas",
+      department:"Department of Computing & Data Science",
+      college:" Nanyang Technological University",
+    },
+    {
+      fullName:"Prof. Koczy T. Laszlo",
+      department:"Department of Telecommunications and Media Informatics",
+      college:" Budapest University of Technology and Economics",
+    },
+    {
+      fullName:"Dr. Tulika Rudra Gupta",
+      department:"Department of Biostatistics",
+      college:" Harvard T.H. Chan School of Public Health",
+    },
+    {
+      fullName:"Dr. Pedro Luiz Ramos",
+      department:"Department of Mathematics",
+      college:" Pontificia Universidad Catolica de Chile, Chili",
     },
   ]
 
@@ -395,10 +435,10 @@ const OrganizingCommittee = () => {
                 return(
                   <div key={idx} className="p-4 bg-slate-50 shadow border-l-4 border-icosom-500 rounded-lg">
                     <h1 className="text-lg font-medium">{data.fullName}</h1>
-                    <div className="flex flex-col lg:flex-row">
+                    <div className="flex flex-col">
 
                     <h3 className="text-slate-700">{data.department}</h3>
-                    <span className="hidden lg:block">,&nbsp;</span>
+                    {/* <span className="hidden lg:block">,&nbsp;</span> */}
                     <h3 className="text-slate-700">{data.college}</h3>
                     </div>
                   </div>

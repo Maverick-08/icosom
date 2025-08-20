@@ -54,7 +54,10 @@ const Papers = () => {
                       poster presentations at the 1<sup>st</sup> International
                       Conference on Statistics, Optimization and Machine
                       Learning (ICOSOM 2026).</p>
-                      <p className="font-medium"> Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.</p>
+                      <p className="text-red-500 font-medium">NOTE :</p>
+                      <p className="font-medium">1. Those who do not wish to publish their papers in the conference proceedings are required to submit only the abstract.</p>
+                      <p className="font-medium">2. Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.</p>
+                      <p className="font-medium">3. For the purpose of double-blind peer review, author details should not be included in the paper.</p>
                     </div>
                   </div>
                 </div>

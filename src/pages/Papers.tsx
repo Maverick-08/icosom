@@ -294,7 +294,7 @@ const Papers = () => {
                             Late Registration Deadline
                           </h1>
                           <p className="text-left text-neutral-600">
-                            January 15, 2026
+                            February 15, 2026
                           </p>
                         </div>
                       </div>

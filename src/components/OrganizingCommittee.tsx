@@ -156,7 +156,7 @@ const OrganizingCommittee = () => {
       image: organizingSecretaryPerson2,
     },
     {
-      fullName: "Dr. S. Dutta",
+      fullName: "Dr. Subhankar Dutta",
       college: "MANIT Bhopal, India",
       image: organizingSecretaryPerson3,
     },

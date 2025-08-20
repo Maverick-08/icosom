@@ -17,6 +17,10 @@ const DatesSection = () => {
     },
     {
       date: "February 15, 2026",
+      event: "Camera Ready Submission Deadline"
+    },
+    {
+      date: "February 15, 2026",
       event: "Late Registration Deadline"
     },
     {

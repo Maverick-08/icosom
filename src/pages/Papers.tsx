@@ -48,13 +48,14 @@ const Papers = () => {
                   </div>
                   {/* content  */}
                   <div className="px-6 text-left text-neutral-600">
-                    <p>
-                      We invite researchers, academics, and professionals to
+                    <div>
+                      <p>We invite researchers, academics, and professionals to
                       submit abstracts and full length papers for oral and
                       poster presentations at the 1<sup>st</sup> International
                       Conference on Statistics, Optimization and Machine
-                      Learning (ICOSOM 2026). Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.
-                    </p>
+                      Learning (ICOSOM 2026).</p>
+                      <p className="font-medium"> Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.</p>
+                    </div>
                   </div>
                 </div>
 
@@ -218,14 +219,14 @@ const Papers = () => {
                     <div>
                       {/* Event Heading  */}
                       <div className="flex gap-2">
-                        <GoClock className="h-4 w-4" />
+                        <GoClock className="h-4 w-4 shrink-0" />
 
                         <div>
                           <h1 className="text-sm font-medium">
-                            Abstract Submission Deadline
+                            Full Paper / Abstract / Poster Submission Deadline
                           </h1>
                           <p className="text-left text-neutral-600">
-                            December 31, 2025
+                            December 15, 2025
                           </p>
                         </div>
                       </div>
@@ -241,23 +242,7 @@ const Papers = () => {
                             Notification of Acceptance
                           </h1>
                           <p className="text-left text-neutral-600">
-                            January 10, 2026
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div>
-                      {/* Event Heading  */}
-                      <div className="flex gap-2">
-                        <GoClock className="h-4 w-4" />
-
-                        <div>
-                          <h1 className="text-sm font-medium">
-                            Full Paper Submission Deadline
-                          </h1>
-                          <p className="text-left text-neutral-600">
-                            January 20, 2026
+                            January 15, 2026
                           </p>
                         </div>
                       </div>
@@ -274,6 +259,39 @@ const Papers = () => {
                           </h1>
                           <p className="text-left text-neutral-600">
                             January 31, 2026
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      {/* Event Heading  */}
+                      <div className="flex gap-2">
+                        <GoClock className="h-4 w-4" />
+
+                        <div>
+                          <h1 className="text-sm font-medium">
+                            Camera Ready Submission Deadline
+                          </h1>
+                          <p className="text-left text-neutral-600">
+                            February 15, 2026
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <div>
+                      {/* Event Heading  */}
+                      <div className="flex gap-2">
+                        <GoClock className="h-4 w-4" />
+
+                        <div>
+                          <h1 className="text-sm font-medium">
+                            Late Registration Deadline
+                          </h1>
+                          <p className="text-left text-neutral-600">
+                            January 15, 2026
                           </p>
                         </div>
                       </div>

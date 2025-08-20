@@ -75,7 +75,7 @@ export default function Places() {
 
   return (
     <div className="flex flex-col items-center py-10 bg-gradient-to-br from-icosom-dark to-icosom-800 text-white">
-      <h2 className="text-3xl font-bold mb-6">Places</h2>
+      <h2 className="text-3xl font-bold mb-6">Places To Visit</h2>
       <div className="w-24 h-1 bg-gradient-to-r from-icosom-300 to-icosom-teal mx-auto mb-6 rounded-full"></div>
       <div className="flex items-center justify-center sm:gap-4 sm:p-4">
         <button onClick={handlePrev} className="p-2 bg-black/50 rounded-full hover:bg-gray-400"><ArrowLeft /></button>

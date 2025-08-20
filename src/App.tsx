@@ -16,6 +16,7 @@ import Update from "./pages/Update";
 import Papers from "./pages/Papers";
 import Awards from "./pages/Awards";
 import Sponsors from "./pages/Sponsors";
+import { Committee } from "./pages/Committee";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
+          <Route path="/committee" element={<Committee />} />
           <Route path="/tracks" element={<Tracks />} />
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/dates" element={<Dates />} />

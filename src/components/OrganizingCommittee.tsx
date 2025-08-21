@@ -133,14 +133,14 @@ const OrganizingCommittee = () => {
       image: publicityChairPerson2,
     },
     {
-      fullName: "Dr. S. Devidas",
-      college: "MANIT Bhopal, India",
-      image: publicityChairPerson3,
-    },
-    {
       fullName: "Dr. K. Singh Yadav",
       college: "MANIT Bhopal, India",
       image: publicityChairPerson4,
+    },
+    {
+      fullName: "Dr. S. Devidas",
+      college: "MANIT Bhopal, India",
+      image: publicityChairPerson3,
     },
   ];
 
@@ -222,6 +222,11 @@ const OrganizingCommittee = () => {
       fullName:"Dr. Pedro Luiz Ramos",
       department:"Department of Mathematics",
       college:" Pontificia Universidad Catolica de Chile, Chili",
+    },
+    {
+      fullName:"Dr. Pushpinder Singh Patheja",
+      department:"Department of Computing Science and Engineering",
+      college:" VIT Bhopal University, Bhopal",
     },
   ]
 

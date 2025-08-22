@@ -225,11 +225,7 @@ const OrganizingCommittee = () => {
     },
     {
       fullName:"Dr. Pushpinder Singh Patheja",
-<<<<<<< HEAD
       department:"Dean - School of Computing Science and Engineering",
-=======
-      department:"Department of Computing Science and Engineering",
->>>>>>> b2137dce0ea88ec3971f520e3e43e85b38dd1ca8
       college:" VIT Bhopal University, Bhopal",
     },
   ]

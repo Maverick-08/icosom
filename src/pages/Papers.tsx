@@ -58,6 +58,14 @@ const Papers = () => {
                       <p className="font-medium">1. Those who do not wish to publish their papers in the conference proceedings are required to submit only the abstract.</p>
                       <p className="font-medium">2. Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.</p>
                       <p className="font-medium">3. For the purpose of double-blind peer review, author details should not be included in the paper.</p>
+                      <div >
+                        <p className="font-medium">4. Use the following templates for paper submission:</p>
+                        <div className="flex flex-col pl-4">
+
+                        <a className="text-blue-500 underline cursor-pointer" target="_blank" href="https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOoo3tWqYnT5XUN8QaJTWcV9RVIyrnvpx3NCZ_uBKBXEZOTlS_xwz ">Word Template</a>
+                        <a className="text-blue-500 underline cursor-pointer" href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WtR5Hy5ua71">Latex Template</a>
+                        </div>
+                        </div>
                     </div>
                   </div>
                 </div>

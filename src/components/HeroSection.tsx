@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import springerLogo from "@/assets/springerLogo.jpg";
 
 const HeroSection = () => {
   return (
@@ -38,7 +39,6 @@ const HeroSection = () => {
           </div>
 
           <div className="text-white order-1 lg:order-2 ">
-
             <p className="text-center lg:text-left text-xl lg:text-2xl font-bold ">
               1 <sup>st</sup> &nbsp; INTERNATIONAL CONFERENCE ON
             </p>
@@ -47,12 +47,23 @@ const HeroSection = () => {
               STATISTICS, OPTIMIZATION <br />
               AND MACHINE LEARNING{" "}
             </p>
+            <div className="pt-4 flex flex-col lg:flex-row justify-between items-center">
+              <div className="bg-white p-4 rounded-md flex">
 
-            <p className="text-center lg:text-left text-2xl lg:text-3xl mt-4 lg:mt-6 font-bold text-icosom-300">
-              27<sup>th</sup> - 28<sup>th</sup> FEBRUARY, 2026
+              <img
+                src={springerLogo}
+                alt="springer Logo"
+                className="w-44 h-20"
+                />
+                </div>
+              <p className="text-center lg:text-left text-2xl lg:text-3xl mt-4 lg:mt-6 font-bold text-icosom-300">
+                27<sup>th</sup> - 28<sup>th</sup> FEBRUARY, 2026
+              </p>
+            </div>
+
+            <p className="text-center lg:text-left mt-8 text-xl font-semibold">
+              Organized By :
             </p>
-
-            <p className="text-center lg:text-left mt-8 text-xl font-semibold">Organized By :</p>
 
             <p className="text-center lg:text-left mt-2 text-xl leading-relaxed lg:leading-none">
               Department of Mathematics, Bioinformatics and Computer
@@ -62,7 +73,6 @@ const HeroSection = () => {
             <p className="text-center lg:text-left mt-6 lg:mt-4 text-xl leading-relaxed lg:leading-none">
               Maulana Azad National Institute of Technology (MANIT) Bhopal
             </p>
-
           </div>
         </div>
       </div>

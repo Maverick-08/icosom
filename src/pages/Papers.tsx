@@ -4,6 +4,7 @@ import { LuNotepadText } from "react-icons/lu";
 import { BsCheck2Circle } from "react-icons/bs";
 import { LuCalendar } from "react-icons/lu";
 import { GoClock } from "react-icons/go";
+import springerLogo from "@/assets/springerLogo.jpg";
 
 const Papers = () => {
   return (
@@ -12,11 +13,20 @@ const Papers = () => {
       <div className="my-36">
         {/* Title  */}
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
-            Call for Papers
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6 rounded-full"></div>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <div className="flex items-center justify-center gap-8">
+            <img
+              src={springerLogo}
+              alt="springer-logo"
+              className="w-44 h-20 "
+            />
+            <div>
+              <h2 className="pt-8 text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+                Call for Papers
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-icosom-500 to-icosom-teal mx-auto mb-6 rounded-full"></div>
+            </div>
+          </div>
+          <p className="pt-8 text-lg text-gray-600 max-w-3xl mx-auto">
             Our conference covers a wide range of topics across statistics,
             optimization, and machine learning disciplines.
           </p>
@@ -49,23 +59,49 @@ const Papers = () => {
                   {/* content  */}
                   <div className="px-6 text-left text-neutral-600">
                     <div>
-                      <p>We invite researchers, academics, and professionals to
-                      submit abstracts and full length papers for oral and
-                      poster presentations at the 1<sup>st</sup> International
-                      Conference on Statistics, Optimization and Machine
-                      Learning (ICOSOM 2026).</p>
+                      <p>
+                        We invite researchers, academics, and professionals to
+                        submit abstracts and full length papers for oral and
+                        poster presentations at the 1<sup>st</sup> International
+                        Conference on Statistics, Optimization and Machine
+                        Learning (ICOSOM 2026).
+                      </p>
                       <p className="text-red-500 font-medium">NOTE :</p>
-                      <p className="font-medium">1. Those who do not wish to publish their papers in the conference proceedings are required to submit only the abstract.</p>
-                      <p className="font-medium">2. Details of Scopus indexed conference proceedings and special issue submissions in journals (scopus & Web of Science indexed) will be coming shortly.</p>
-                      <p className="font-medium">3. For the purpose of double-blind peer review, author details should not be included in the paper.</p>
-                      <div >
-                        <p className="font-medium">4. Use the following templates for paper submission:</p>
+                      <p className="font-medium">
+                        1. Those who do not wish to publish their papers in the
+                        conference proceedings are required to submit only the
+                        abstract (Scopus indexed Springer Conference
+                        proceedings).
+                      </p>
+                      <p className="font-medium">
+                        2. Details of Scopus indexed conference proceedings and
+                        special issue submissions in journals (scopus & Web of
+                        Science indexed) will be coming shortly.
+                      </p>
+                      {/* <p className="font-medium">
+                        3. For the purpose of double-blind peer review, author
+                        details should not be included in the paper.
+                      </p> */}
+                      <div>
+                        <p className="font-medium">
+                          3. Use the following templates for paper submission:
+                        </p>
                         <div className="flex flex-col pl-4">
-
-                        <a className="text-blue-500 underline cursor-pointer" target="_blank" href="https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOoo3tWqYnT5XUN8QaJTWcV9RVIyrnvpx3NCZ_uBKBXEZOTlS_xwz ">Word Template</a>
-                        <a className="text-blue-500 underline cursor-pointer" href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WtR5Hy5ua71">Latex Template</a>
+                          <a
+                            className="text-blue-500 underline cursor-pointer"
+                            target="_blank"
+                            href="https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOoo3tWqYnT5XUN8QaJTWcV9RVIyrnvpx3NCZ_uBKBXEZOTlS_xwz "
+                          >
+                            Word Template
+                          </a>
+                          <a
+                            className="text-blue-500 underline cursor-pointer"
+                            href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WtR5Hy5ua71"
+                          >
+                            Latex Template
+                          </a>
                         </div>
-                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -121,8 +157,8 @@ const Papers = () => {
                   <div className="px-6 text-left text-neutral-600">
                     <p>
                       Full papers (if required after abstract acceptance) should
-                      be formatted according to the conference template, not
-                      exceeding 8 pages including references.
+                      be formatted according to the conference template, in
+                      between 10-15 pages including references.
                     </p>
                     <ul className="flex flex-col gap-2">
                       <li>
@@ -203,7 +239,8 @@ const Papers = () => {
                         <span className="text-neutral-900 font-semibold">
                           4.{" "}
                         </span>
-                        Presenters are requested to submit posters in their CMT account.
+                        Presenters are requested to submit posters in their CMT
+                        account.
                       </li>
                     </ul>
                   </div>
@@ -290,7 +327,6 @@ const Papers = () => {
                         </div>
                       </div>
                     </div>
-                    
 
                     <div>
                       {/* Event Heading  */}
@@ -333,7 +369,15 @@ const Papers = () => {
                     <div>
                       <h1 className="text-xl font-semibold">Where to Submit</h1>
                       <p className="text-left text-neutral-600">
-                        Follow this <a target="_blank" rel="noopener noreferrer" className="text-blue-500 underline" href="https://cmt3.research.microsoft.com/ICOSOM2026/Submission/Index">Link</a>
+                        Follow this{" "}
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-500 underline"
+                          href="https://cmt3.research.microsoft.com/ICOSOM2026/Submission/Index"
+                        >
+                          Link
+                        </a>
                       </p>
                     </div>
                   </div>

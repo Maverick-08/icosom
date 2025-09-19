@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import keynoteSpeaker1 from "@/assets/keynoteSpeaker1.png";
 import keynoteSpeaker2 from "@/assets/keynoteSpeaker2.png";
 import keynoteSpeaker3 from "@/assets/keynoteSpeaker3.png";
+import keynoteSpeaker4 from "@/assets/keynoteSpeaker4.png";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 
 const KeyNoteSpeakers = () => {
@@ -24,6 +25,12 @@ const KeyNoteSpeakers = () => {
       image: keynoteSpeaker2,
       initials: "NP",
     },
+    {
+      name: "Prof. Tanujit Chakraborty",
+      role: "Sorbonne University, Abu Dhabi, UAE",
+      image: keynoteSpeaker4,
+      initials: "TC",
+    },
   ]
   const pathname = useLocation().pathname;
   return (
@@ -37,7 +44,7 @@ const KeyNoteSpeakers = () => {
           </p>
         </div>
        
-        <div className="lg:max-w-4xl mx-auto grid place-items-center grid-cols-1 md:grid-cols-3 gap-16">
+        <div className="lg:max-w-4xl mx-auto grid place-items-center grid-cols-1 md:grid-cols-2 gap-16">
           {speakers.map((speaker, index) => (
             <div key={index} className="text-center p-4 w-full bg-slate-50 rounded-lg shadow hover:shadow-md cursor-pointer">
               {/* <Avatar className="h-32 w-32 mx-auto mb-4 border-2 border-icosom-100">

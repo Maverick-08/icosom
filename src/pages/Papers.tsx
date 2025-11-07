@@ -78,13 +78,12 @@ const Papers = () => {
                         special issue submissions in journals (scopus & Web of
                         Science indexed) will be coming shortly.
                       </p>
-                      {/* <p className="font-medium">
-                        3. For the purpose of double-blind peer review, author
-                        details should not be included in the paper.
-                      </p> */}
+                      <p className="font-medium">
+                        3. The papers will be reviewed by atleast two reviewers and the reviewing process will be single-blind.
+                      </p>
                       <div>
                         <p className="font-medium">
-                          3. Use the following templates for paper submission:
+                          4. Use the following templates for paper submission:
                         </p>
                         <div className="flex flex-col pl-4">
                           <a

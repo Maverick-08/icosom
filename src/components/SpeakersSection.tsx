@@ -16,48 +16,64 @@ const SpeakersSection = () => {
       role: "IIT Kanpur",
       image: guestSpeaker1,
       initials: "DK",
+      profileLink:
+        "https://scholar.google.com/citations?user=yq8z1rIAAAAJ&hl=en",
     },
     {
       name: "Prof. Somesh Kumar",
       role: "IIT Kharagpur",
       image: guestSpeaker2,
       initials: "SK",
+      profileLink:
+        "https://scholar.google.co.in/citations?user=Y7wWnEMAAAAJ&hl=en",
     },
     {
       name: "Prof. Millie Pant",
       role: "IIT Roorkee",
       image: guestSpeaker3,
       initials: "MP",
+      profileLink:
+        "https://scholar.google.co.in/citations?user=VEAXM8IAAAAJ&hl=en",
     },
     {
       name: "Prof. Debjani Chakraborty",
       role: "IIT Kharagpur",
       image: guestSpeaker4,
       initials: "DC",
+      profileLink:
+        "https://scholar.google.co.in/citations?user=fyIXIa0AAAAJ&hl=en",
     },
     {
       name: "Prof. Pankaj Dutta",
       role: "IIT Bombay",
       image: guestSpeaker5,
       initials: "PD",
+      profileLink:
+        "https://scholar.google.com/citations?user=JRbUTroAAAAJ&hl=en",
     },
     {
-      name: "Prof. Swagatam Das,",
+      name: "Prof. Swagatam Das",
       role: "ISI Kolkata",
       image: guestSpeaker6,
       initials: "SD",
+      profileLink:
+        "https://scholar.google.co.in/citations?user=L8XYpAwAAAAJ&hl=en",
     },
     {
       name: "Prof. M. Tanveer",
       role: "IIT Indore",
       image: guestSpeaker7,
       initials: "MT",
+      profileLink:
+        "https://scholar.google.com/citations?user=sdu678oAAAAJ&hl=en",
     },
     {
       name: "Dr. James Arambam",
       role: "IIT Delhi",
       image: guestSpeaker8,
       initials: "JA",
+      profileLink:
+        "https://scholar.google.com/citations?user=4ElZ5_YAAAAJ&hl=en",
     },
   ];
   const pathname = useLocation().pathname;
@@ -79,16 +95,23 @@ const SpeakersSection = () => {
         <div className="lg:max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           {speakers.map((speaker, index) => (
             <div key={index} className="text-center">
-              <Avatar className="h-32 w-32 mx-auto mb-4 border-2 border-icosom-100">
-                <AvatarImage src={speaker.image} />
-                <AvatarFallback className="text-xl bg-icosom-100 text-icosom-800">
-                  {speaker.initials}
-                </AvatarFallback>
-              </Avatar>
-              <h3 className="font-semibold text-lg text-gray-900 mb-1">
-                {speaker.name}
-              </h3>
-              <p className="text-gray-600 text-sm">{speaker.role}</p>
+              <a
+                href={speaker.profileLink}
+                target="_blank"
+                no-opener
+                no-referrer
+              >
+                <Avatar className="h-32 w-32 mx-auto mb-4 border-2 border-icosom-100">
+                  <AvatarImage src={speaker.image} />
+                  <AvatarFallback className="text-xl bg-icosom-100 text-icosom-800">
+                    {speaker.initials}
+                  </AvatarFallback>
+                </Avatar>
+                <h3 className="font-semibold text-lg text-gray-900 mb-1">
+                  {speaker.name}
+                </h3>
+                <p className="text-gray-600 text-sm">{speaker.role}</p>
+              </a>
             </div>
           ))}
         </div>

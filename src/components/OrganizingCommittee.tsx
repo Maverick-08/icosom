@@ -18,6 +18,7 @@ import publicityChairPerson1 from "../assets/publicityChairMember1.jpg";
 import publicityChairPerson2 from "../assets/publicityChairMember2.jpg";
 import publicityChairPerson3 from "../assets/publicityChairMember3.jpg";
 import publicityChairPerson4 from "../assets/publicityChairMember4.png";
+import publicityChairPerson5 from "../assets/publicityChairMember5.jpg";
 import organizingSecretaryPerson1 from "../assets/organizingSecretaryMember1.png";
 import organizingSecretaryPerson2 from "../assets/organizingSecretaryMember2.png";
 import organizingSecretaryPerson3 from "../assets/organizingSecretaryMember3.png";
@@ -141,6 +142,11 @@ const OrganizingCommittee = () => {
       fullName: "Dr. S. Devidas",
       college: "MANIT Bhopal, India",
       image: publicityChairPerson3,
+    },
+    {
+      fullName: "Dr. Priyabrata Mandal",
+      college: "MANIT Bhopal, India",
+      image: publicityChairPerson5,
     },
   ];
 

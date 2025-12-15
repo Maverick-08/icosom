@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const DatesSection = () => {
   const importantDates = [
     {
-      date: "December 15, 2025",
+      date: "December 22, 2025",
       event: "Full Paper / Abstract / Poster Submission Deadline"
     },
     {

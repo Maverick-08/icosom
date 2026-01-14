@@ -8,7 +8,7 @@ const DatesSection = () => {
       event: "Full Paper / Abstract / Poster Submission Deadline"
     },
     {
-      date: "January 15, 2026",
+      date: "January 22, 2026",
       event: "Notification of Acceptance"
     },
     {

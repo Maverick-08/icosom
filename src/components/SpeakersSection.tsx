@@ -68,12 +68,12 @@ const SpeakersSection = () => {
         "https://scholar.google.com/citations?user=sdu678oAAAAJ&hl=en",
     },
     {
-      name: "Dr. James Arambam",
+      name: "Dr. Sudipan Saha",
       role: "IIT Delhi",
       image: guestSpeaker8,
-      initials: "JA",
+      initials: "SS",
       profileLink:
-        "https://scholar.google.com/citations?user=4ElZ5_YAAAAJ&hl=en",
+        "https://web.iitd.ac.in/~sahasudipan/",
     },
   ];
   const pathname = useLocation().pathname;

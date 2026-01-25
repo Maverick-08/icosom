@@ -32,12 +32,12 @@ const KeyNoteSpeakers = () => {
         "https://scholar.google.com/citations?hl=en&user=IGIvYfAAAAAJ",
     },
     {
-      name: "Prof. Tanujit Chakraborty",
-      role: "Sorbonne University, Abu Dhabi, UAE",
+      name: "Dr. Aishwaryaprajna",
+      role: "University of Exeter, UK",
       image: keynoteSpeaker4,
-      initials: "TC",
+      initials: "AP",
       profileLink:
-        "https://scholar.google.com/citations?user=sJOm-voAAAAJ&hl=en",
+        "https://experts.exeter.ac.uk/42783--aishwaryaprajna",
     },
   ];
   const pathname = useLocation().pathname;

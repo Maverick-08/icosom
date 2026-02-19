@@ -3,6 +3,7 @@ import keynoteSpeaker1 from "@/assets/keynoteSpeaker1.png";
 import keynoteSpeaker2 from "@/assets/keynoteSpeaker2.png";
 import keynoteSpeaker3 from "@/assets/keynoteSpeaker3.png";
 import keynoteSpeaker4 from "@/assets/keynoteSpeaker4.png";
+import keynoteSpeaker5 from "@/assets/keynoteSpeaker5.png";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 
 const KeyNoteSpeakers = () => {
@@ -38,6 +39,14 @@ const KeyNoteSpeakers = () => {
       initials: "AP",
       profileLink:
         "https://experts.exeter.ac.uk/42783--aishwaryaprajna",
+    },
+    {
+      name: "Dr Deborshee Sen",
+      role: "Senior Data Scientist, Google",
+      image: keynoteSpeaker5,
+      initials: "DS",
+      profileLink:
+        "https://scholar.google.com/citations?user=FXla40AAAAAJ&hl=en",
     },
   ];
   const pathname = useLocation().pathname;
@@ -87,13 +96,13 @@ const KeyNoteSpeakers = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           {!pathname.includes("speakers") && (
             <a href="/speakers" className="gradient-button">
               View All Speakers
             </a>
           )}
-        </div>
+        </div> */}
       </div>
     </section>
   );
